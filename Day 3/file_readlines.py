@@ -1,0 +1,8 @@
+fobj=open('C:\\Users\\Admin\\Desktop\\Core-Python-with-AI-Integrated-Development\\Day 3\\emp.csv','r')
+s=fobj.readlines()
+fobj.close()
+print(type(s))
+print(len(s))
+print("")
+print("Display of file content")
+print(s)
