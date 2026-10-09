@@ -1,6 +1,5 @@
 import time
 
-
 def pin_test():
     fobj = open('pin_history.log', 'a')
 
